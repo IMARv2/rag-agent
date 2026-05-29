@@ -1,0 +1,17 @@
+[Unit]
+Description=RAG Personal AI Agent
+After=network.target mnt-EVO.mount
+Requires=mnt-EVO.mount
+
+[Service]
+Type=simple
+User=imar
+WorkingDirectory=/home/imar/rag-agent
+ExecStart=/home/imar/rag-agent/venv/bin/python3 main.py
+Restart=on-failure
+RestartSec=5
+StandardOutput=journal
+StandardError=journal
+
+[Install]
+WantedBy=multi-user.target

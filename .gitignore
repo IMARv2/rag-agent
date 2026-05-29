@@ -1,0 +1,25 @@
+# Environment & secrets
+.env
+
+# Virtual environment
+venv/
+.venv/
+
+# ChromaDB data & vector store
+data/
+db/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+# Logs
+*.log
+logs/
+
+# OS
+.DS_Store
+Thumbs.db
