@@ -9,6 +9,11 @@
 > [!NOTE]
 > **PURPOSE:** A fully self-hosted AI agent that indexes and semantically searches private document collections — combining local LLMs with vector embeddings for intelligent, privacy-preserving document Q&A.
 
+<p align="center">
+  <img src="docs/screenshot.png" alt="RAG Agent chat interface showing a grounded answer with cited source documents and cosine similarity scores" width="100%">
+  <br><em>Semantic Q&A with source citations · demo data</em>
+</p>
+
 ---
 
 ## 01 — 📖 Project Overview
